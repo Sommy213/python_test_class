@@ -1,0 +1,1 @@
+age = input("Get users age")
