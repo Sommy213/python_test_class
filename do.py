@@ -22,11 +22,3 @@ grades = Grades({"chisom" :20, "victor":70, "gilly":59})
 # grades.result()
 print(grades.result)
 print(len(grades.result))
-
-
-
-          
-
-  
-        
-           
