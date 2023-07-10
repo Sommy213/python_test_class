@@ -1,10 +1,3 @@
-# method
-# name.upper()
-# class Dog:
-#      bread ='bull dog'
-#      age = 5
-#      def bark(self ):
-#          print('barking')
 class Animal:
     def __init__(self, name, age, gender):
         self.name = name
@@ -28,6 +21,4 @@ dog.age=24
 
 dog.profile()
 
-# print(dog.name)   
-        
-        
+# print(dog.name)

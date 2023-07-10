@@ -12,9 +12,4 @@ class Dog (Animal):
 puppy = Dog()
 puppy.eat()
 puppy.sound()
-# lclass child (father,mother):
-# def _init_ (self,cname,fname,mname):
-# fahter _init_(self,fname)
-# mother,_init(self,mname)
-# self,child_name =cname
-    
+# lclass child (f
