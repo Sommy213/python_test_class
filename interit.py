@@ -12,4 +12,3 @@ class Dog (Animal):
 puppy = Dog()
 puppy.eat()
 puppy.sound()
-# lclass child (f

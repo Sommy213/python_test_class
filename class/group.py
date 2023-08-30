@@ -28,13 +28,21 @@ class Attendence:
             else:
                 return 'Could no find group'
         else:
-            return 'No group addedto the attendence' 
+            return 'No group added to the attendence' 
     def dispaly_all_groups(self):
         for group in self.groups:
             print(group)
+    
+    
+        
+    
+
 if __name__ == '__main__':
     group1 = Group('Python Class')
     group2 = Group('Java Class')
+    group3 = Group('ruby class')
+    group4 = Group('Dart Class')
+    group5 = Group("C class")
     attendence = Attendence()
     attendence.add_group(group1)
     attendence.add_group(group2)
@@ -47,8 +55,9 @@ if __name__ == '__main__':
     user27 = User('timithy',39034512784)
     response = attendence.add_user_to_group(group1,user2)
     response2 = attendence.add_user_to_group(group1,user2)
-    # response3 = attendence.add_user_to_group(group3,user3)
+    response3 = attendence.add_user_to_group(group3,user3)
     response4 = attendence.add_user_to_group(group1,user8)
+    print(user1)
     print(response)
     print(response2)
          

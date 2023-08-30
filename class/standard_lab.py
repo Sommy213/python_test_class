@@ -24,9 +24,7 @@ def generatePassword():
         password.append(random.choice(our_choice))
     return ''.join(password)
 print(generatePassword())
-# import random  
-# name='chisom'
-# print(random.choice(name))
+
 with open('standaed_lab.txt','w+')as file:
     file.write(generatePassword())
     

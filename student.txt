@@ -1,0 +1,3 @@
+name:victor, age:22, score:B
+name:chisom,age:19,score:A
+name: precious, age:10, score:C
